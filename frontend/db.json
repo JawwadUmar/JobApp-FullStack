@@ -1,0 +1,50 @@
+{
+  "jobPosts": [
+    {
+      "id": 1,
+      "postProfile":"Java Developer",
+      "postDesc":"should be good",
+      "reqExperience":5,
+      "postTechStack":[
+        "Java",
+        "Js",
+        "Ts"
+      ]
+    },
+    {
+      "id": 2,
+      "postProfile":"Ts Developer",
+      "postDesc":"should be good",
+      "reqExperience":5,
+      "postTechStack":[
+        "Java",
+        "Js",
+        "Ts"
+      ]
+    },
+    {
+      "id": 3,
+      "postProfile":"Js Developer",
+      "postDesc":"should be good",
+      "reqExperience":5,
+      "postTechStack":[
+        "Java",
+        "Js",
+        "Ts"
+      ]
+    },
+    {
+      "id": 4,
+      "postProfile":"Java Fullstack Developer",
+      "postDesc":"should be ready for the mission",
+      "reqExperience":2,
+      "postTechStack":[
+        "Java",
+        "JDBC",
+        "Spring"
+      ]
+    }
+  ]
+
+
+}
