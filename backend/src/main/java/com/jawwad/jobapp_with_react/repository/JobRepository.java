@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public class JobRepository {
 
-    private List<JobPost> jobs = new ArrayList<>(List.of(
+    private final List<JobPost> jobs = new ArrayList<>(List.of(
             new JobPost(1, "Java Developer", "Must have good experience in core Java and advanced Java", 2,
                     List.of("Core Java", "J2EE", "Spring Boot", "Hibernate")),
 
@@ -35,8 +35,19 @@ public class JobRepository {
         return jobs;
     }
 
+    public JobPost getJob(int id){
+
+        for(JobPost jobPost : jobs){
+            if(jobPost.getPostId() == id){
+                return jobPost;
+            }
+        }
+        return null;
+    }
+
     public void addJob(JobPost jobPost){
         jobs.add(jobPost);
-        System.out.println(jobs);
     }
+
+
 }
